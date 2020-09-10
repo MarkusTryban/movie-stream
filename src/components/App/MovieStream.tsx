@@ -4,6 +4,8 @@ import { entriesArray } from '../../utils/entries';
 
 import './MovieStream.css';
 
+const entries = entriesArray();
+
 class MovieStream extends Component {
   GET_ENTRY: void;
 
@@ -13,18 +15,14 @@ class MovieStream extends Component {
     this.state = {
       entryData: [],
     };
-    this.GET_ENTRY = entriesArray();
-    console.log(entriesArray);
   }
 
   getMovieEntry = () => {
-    fetch(this.GET_ENTRY)
-      .then((res) => res.json())
-      .then((result) => {
-        this.setState({
-          entryData: result,
-        });
+    entries.map((result) => {
+      this.setState({
+        entryData: result,
       });
+    });
   };
 
   render() {
