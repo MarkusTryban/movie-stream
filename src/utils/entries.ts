@@ -1,5 +1,5 @@
 export const entriesArray = () => {
-  [
+  return [
     {
       total: 100,
       entries: [
