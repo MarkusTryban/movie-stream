@@ -8,6 +8,7 @@ const entries = entriesArray();
 
 class MovieStream extends Component {
   GET_ENTRY: void;
+  state: { entryData: never[] };
 
   constructor(props: Readonly<{}>) {
     super(props);
