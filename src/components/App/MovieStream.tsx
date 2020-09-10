@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+import './MovieStream.css';
+
+const MovieStream = () => {
   return (
     <div className='App'>
       <h1>Movie Stream</h1>
     </div>
   );
-}
+};
 
-export default App;
+export default MovieStream;
