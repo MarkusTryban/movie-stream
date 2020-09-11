@@ -7,6 +7,23 @@ import './MovieStream.css';
 const entries = entriesArray();
 
 class MovieStream extends Component {
+  setState(arg0: {
+    entryData: {
+      total: number;
+      entries: {
+        title: string;
+        description: string;
+        programType: string;
+        images: {
+          'Poster Art': { url: string; width: number; height: number };
+        };
+        releaseYear: number;
+      }[];
+    };
+  }) {
+    throw new Error('Method not implemented.');
+  }
+
   GET_ENTRY: void;
   state: { entryData: never[] };
 
