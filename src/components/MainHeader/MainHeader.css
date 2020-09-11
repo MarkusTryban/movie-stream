@@ -1,5 +1,6 @@
 .main-header {
   padding-top: 5px;
   display: flex;
-  height: 50px;
+  height: 60px;
+  outline: 1px solid #000;
 }
