@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { entriesArray } from '../../utils/entries';
+import MainHeader from '../MainHeader/MainHeader';
 
 import './MovieStream.css';
 
@@ -16,13 +17,7 @@ class MovieStream extends Component {
   }
 
   render() {
-    return (
-      <div>
-        {entriesArr.map((data) => (
-          <span>{data.total}</span>
-        ))}
-      </div>
-    );
+    return <MainHeader />;
   }
 }
 
