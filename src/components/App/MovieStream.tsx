@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import { entriesArray } from '../../utils/entries';
+import MainContent from '../MainContent/MainContent';
 import MainHeader from '../MainHeader/MainHeader';
 
 import './MovieStream.css';
@@ -17,7 +18,12 @@ class MovieStream extends Component {
   }
 
   render() {
-    return <MainHeader />;
+    return (
+      <>
+        <MainHeader />
+        <MainContent />
+      </>
+    );
   }
 }
 
