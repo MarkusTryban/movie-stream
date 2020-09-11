@@ -7,3 +7,5 @@ const MainFooter = () => {
     </div>
   );
 };
+
+export default MainFooter;
