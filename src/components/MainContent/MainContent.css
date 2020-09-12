@@ -1,5 +1,4 @@
 .content-container {
-  outline: 1px solid #000;
   max-width: 1280px;
   margin: auto;
   padding: 0 2rem;
@@ -13,4 +12,5 @@
 #main-content {
   display: flex;
   height: 75vh;
+  background-color: #82c2ff;
 }
