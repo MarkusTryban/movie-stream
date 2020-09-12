@@ -1,8 +1,8 @@
 .main-header {
   display: flex;
   height: 60px;
-  outline: 1px solid #000;
   max-width: 1280px;
   margin: auto;
   padding: 0 2rem;
+  background-color: #969696;
 }
