@@ -5,7 +5,9 @@ import './MainFooter.css';
 const MainFooter = () => {
   return (
     <div className='footer-container'>
-      <span>Main Footer</span>
+      <div id='footer-content'>
+        <span>Main Footer</span>
+      </div>
     </div>
   );
 };
