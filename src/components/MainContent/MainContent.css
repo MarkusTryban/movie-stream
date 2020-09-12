@@ -6,7 +6,7 @@
 
 #title-container {
   display: flex;
-  border-bottom: solid #000;
+  background-color: #fcff40;
 }
 
 #main-content {
