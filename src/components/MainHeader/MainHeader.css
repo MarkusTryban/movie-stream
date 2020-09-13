@@ -1,5 +1,6 @@
 .main-header {
   display: flex;
+  flex: 25%;
   height: 60px;
   max-width: 1280px;
   margin: auto;
