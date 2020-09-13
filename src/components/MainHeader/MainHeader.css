@@ -1,8 +1,29 @@
 .main-header {
   display: flex;
-  flex: 25%;
-  height: 60px;
+  flex: auto;
+  flex-flow: row wrap;
   max-width: 1280px;
   margin: auto;
   background-color: #969696;
+}
+
+h1 {
+  width: 80%;
+  padding: 0 20px 0 20px;
+}
+
+h2 {
+  width: 30%;
+  padding: 0 20px 0 20px;
+  order: 4;
+}
+
+button {
+  height: 35px;
+  padding: 0 20px 0 20px;
+}
+
+button:nth-child(3),
+:nth-child(4) {
+  flex-direction: row;
 }
