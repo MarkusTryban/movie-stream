@@ -9,10 +9,12 @@
 }
 
 h1 {
-  width: 80%;
+  padding-left: 45px;
+  width: 30em;
 }
 
 h2 {
+  padding-left: 45px;
   width: 30%;
   order: 4;
 }
