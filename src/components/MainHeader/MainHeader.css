@@ -21,10 +21,5 @@ h2 {
 }
 
 a {
-  height: 30px;
-  width: 112px;
-}
-
-button:nth-child(4) {
-  border-radius: 12px;
+  padding: 10px 20px 10px 20px;
 }
