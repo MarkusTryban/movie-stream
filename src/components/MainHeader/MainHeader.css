@@ -20,13 +20,11 @@ h2 {
   order: 4;
 }
 
-button {
+a {
   height: 30px;
-  border-radius: 12px;
   width: 112px;
-  background-color: #6bc9ff;
 }
 
-button:nth-child(3),
-:nth-child(4) {
+button:nth-child(4) {
+  border-radius: 12px;
 }

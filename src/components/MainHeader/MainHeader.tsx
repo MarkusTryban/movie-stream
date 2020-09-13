@@ -7,8 +7,8 @@ const MainHeader = () => {
     <div className='main-header'>
       <h1>Movie Streaming</h1>
       <h2>Popular Titles</h2>
-      <button id='btn-login'>Log in</button>
-      <button id='btn-trial'>Strat Trial</button>
+      <a>Log in</a>
+      <a>Strat Trial</a>
     </div>
   );
 };
