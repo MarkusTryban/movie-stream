@@ -14,8 +14,6 @@ const MovieStream = () => {
   return (
     <>
       <MainHeader />
-      <MainContent />
-      <MainFooter />
     </>
   );
 };
