@@ -5,7 +5,7 @@
   height: 6rem;
   max-width: 1280px;
   margin: auto;
-  background-color: #969696;
+  background-color: #2389ff;
 }
 
 h1 {
@@ -14,8 +14,9 @@ h1 {
 }
 
 h2 {
+  background-color: #b8b8b8;
   padding-left: 45px;
-  width: 30%;
+  width: 100%;
   order: 4;
 }
 
@@ -23,6 +24,7 @@ button {
   height: 30px;
   border-radius: 12px;
   width: 112px;
+  background-color: #6bc9ff;
 }
 
 button:nth-child(3),
