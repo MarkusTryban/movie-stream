@@ -8,6 +8,8 @@ const MainHeader = () => {
       <h1>Movie Streaming</h1>
       <h2>Popular Titles</h2>
       <a>Log in</a>
+      <br />
+      <br />
       <a>Strat Trial</a>
     </div>
   );
