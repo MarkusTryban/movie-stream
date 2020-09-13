@@ -5,10 +5,10 @@ import './MainContent.css';
 const MainContent = () => {
   return (
     <div className='content-container'>
-      <article id='main-content'>
+      <div id='main-content'>
         <h2>Popular Titles</h2>
-        <section>Movie Stream</section>
-      </article>
+        <div id='main-section'>Movie Stream</div>
+      </div>
     </div>
   );
 };
