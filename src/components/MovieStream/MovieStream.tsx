@@ -10,24 +10,14 @@ import './MovieStream.css';
 
 const entriesArr = entriesArray();
 
-class MovieStream extends Component {
-  constructor(props: Readonly<{}>) {
-    super(props);
-
-    this.state = {
-      entryData: [],
-    };
-  }
-
-  render() {
-    return (
-      <>
-        <MainHeader />
-        <MainContent />
-        <MainFooter />
-      </>
-    );
-  }
-}
+const MovieStream = () => {
+  return (
+    <>
+      <MainHeader />
+      <MainContent />
+      <MainFooter />
+    </>
+  );
+};
 
 export default MovieStream;
