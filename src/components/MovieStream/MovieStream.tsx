@@ -13,7 +13,7 @@ const entriesArr = entriesArray();
 const MovieStream = () => {
   return (
     <>
-      <MainHeader />
+      <MainContent />
     </>
   );
 };
