@@ -46,3 +46,14 @@ a:hover {
     padding: 10px 15px 10px 50px;
   }
 }
+
+@media (max-width: 415px) {
+  h1,
+  h2 {
+    padding-left: 80px;
+  }
+
+  a {
+    padding: 10px 0 10px 80px;
+  }
+}
