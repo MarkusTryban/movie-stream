@@ -53,17 +53,6 @@ a:hover {
 @media screen and (min-width: 375px) {
   h1,
   h2 {
-    padding-left: 20px;
-  }
-
-  a {
-    padding: 10px 15px 10px 20px;
-  }
-}
-
-@media screen and (min-width: 413px) {
-  h1,
-  h2 {
     padding-left: 25px;
   }
 
